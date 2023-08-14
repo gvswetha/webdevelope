@@ -1,0 +1,113 @@
+*{
+    
+    box-sizing: content-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    line-height:10px;
+  }
+  
+.info img{
+    border-radius: 50%;
+    background-color: lavender;
+    width: 90px;
+    height: 80px;
+    padding-left: 100px;
+    padding-right:110px;
+}
+.info h2{
+    text-align: center;
+    font-style: calibri;
+
+}
+.info h3{
+    text-indent: 0%;
+    text-align: center;
+    color:blue;
+    padding-top: 0%;
+}
+
+.p{
+    
+    text-align:center;
+    line-height: 23px;
+}
+
+.c{
+   
+    float: left;
+    width: 32.33%;
+    padding-left: 15px;
+}
+
+.c1 h4 {
+    text-align: justify;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.c1{
+    background-color:lavender;
+    float: left;
+    width: 25.33%;
+    padding-left: 15px;
+    align-items: center;
+    border-style:hidden;
+    border-color:ghostwhite;
+    border-radius: 2px;
+   
+}
+.c2{
+    background-color: ghostwhite;
+    float: left;
+    width: 33.01%;
+    padding-left: 20px;
+    padding-top: 120px;
+    align-content: center; 
+     
+}
+.c2 h1{
+    line-height:96%;
+    font-family:Cambria, 'Cochin', Georgia, Times, Times New Roman, serif;
+    font: weight 200;
+    font-size: 70px;
+
+}
+.c2 h6{
+    background-color:ghostwhite; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    padding-top: 2px;
+    padding-bottom: 110px;
+}
+.c2 button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.c3{
+    background-color:paleturquoise;
+    float: right;
+    width: 30.3%;    
+}
+
+.c3 img{
+    background-color: paleturquoise;
+    object-fit:cover; 
+    height:580%;
+    width:120%;
+    padding-top:150px;
+    padding-left: 0%;
+    padding-right:8px;
+    align-content: center;
+}
+.row::content {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
