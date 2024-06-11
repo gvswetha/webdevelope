@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+   <title>login page</title> 
+</head>
+<body>
+<link rel="stylesheet" href="lostyle.css">   
+    <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    </div>
+    <div class="form">
+    <form method="POST" action="user.class.php">   
+    <h1 style="text-align:center;background:none;">login </h1>
+     <label>username</label><br>
+     <input type="text" placeholder="Email or name" required><br>
+     <label>password</label><br>
+     <input type="password" placeholder="password" required><br>
+     <button id="btn">log In</button><br>
+    <!-- <button id="btn">login</button>-->
+<script>
+  var button = document.getElementById("btn")
+
+  button.addEventListener("click",function(){
+    alert("logged sucessfully")
+  }
+)
+
+</script>
+    <h5>Don't have an account?<br>
+    <b><a href="reg.html">SignUp</b></h5>
+    </form>
+    </div>
+</body>
+</html>
+
